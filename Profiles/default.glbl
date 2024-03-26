@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://key:path@dev-uc-opm.pantheonsite.io/'</initValue>
+      <name>University_Canberra_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Postgraduate diploma'</initValue>
+      <name>Education_Level</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://key:path@dev-rmit-opm.pantheonsite.io'</initValue>
+      <name>University_RMIT</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://key:path@test-vu-opm.pantheonsite.io'</initValue>
+      <name>University_VC</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://key:path@dev-du-opm.pantheonsite.io/'</initValue>
+      <name>University_Deakin_URL</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
