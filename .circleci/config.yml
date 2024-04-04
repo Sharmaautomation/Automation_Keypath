@@ -1,0 +1,21 @@
+version: 2.1
+jobs:
+  build:
+    machine:
+      java:
+        version: openjdk8
+    working_directory: ~/repo
+    steps:
+      - checkout
+      # Install dependencies
+      - run:
+          name: Install Katalon Studio
+          command: |
+            wget -O Katalon_Studio_Linux.tar.gz https://download.katalon.com/7.9.1/Katalon_Studio_Linux.tar.gz
+            tar -xzf Katalon_Studio_Linux.tar.gz
+      # Run Katalon Tests
+      - run:
+          name: Run Katalon Tests
+          command: |
+            cd Katalon_Studio_Linux
+            ./katalonc.sh -noSplash -runMode=console -projectPath=/Users/madhansivaraj/git/Automation_Keypathnew/Keypath_Education_Automation.prj -testSuitePath=Test Suites/Keypath_Testsuite -apiKey=f1a6b482-3a0f-4dde-bfbc-a01f1f81a148
