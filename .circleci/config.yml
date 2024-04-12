@@ -4,10 +4,10 @@ orbs:
 
     
 workflows:
-environment:
-      My_Automation: f1a6b482-3a0f-4dde-bfbc-a01f1f81a148
-  build:
+build:
     jobs:
+    environment:
+      My_Automation: f1a6b482-3a0f-4dde-bfbc-a01f1f81a148
         - katalon-studio/run:
                 version: "latest"
                 command_arguments: '-browserType="Chrome" -retry=2 -statusDelay=15 -testSuitePath="Test Suites/Keypath_Testsuite"'
