@@ -1,6 +1,8 @@
 version: 2.1
 orbs:
     katalon-studio: katalon/katalon-studio@23.0.11
+environment:
+      My_Automation: f1a6b482-3a0f-4dde-bfbc-a01f1f81a148
     
 workflows:
   build:
